@@ -1,0 +1,97 @@
+
+<div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 300px; background-image: url(assets/img/theme/aa.jpg); background-size: cover; background-position: center top;">
+  <!-- Mask -->
+  <span class="mask bg-gradient-danger opacity-8"></span>
+  <!-- Header container -->
+  <div class="container-fluid d-flex align-items-center">
+      <div class="col-lg-7 col-md-10">
+        <h1 class="display-2 text-white">Bienvenue..</h1>
+        <p class="text-white mt-0 mb-5">The smart university permet la gestion des enseignants, elle fournit une interface pour consulter les emplois du temps et gérer les absences.</p>
+      </div>
+    </div>
+  </div>
+<div class="container-fluid mt--7">
+  <div class="row">
+    <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+      <div class="card card-profile shadow">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 order-lg-2">
+            <div class="card-profile-image">
+              <a href="javascript:void(0)">
+                <img src="assets/img/theme/prog.jpg" class="rounded-circle">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body pt-0 pt-md-4">
+          <div class="row">
+            <div class="col">
+              <div class="card-profile-stats d-flex justify-content-center mt-md-5">
+                <div>
+                  <span class="heading">2</span>
+                  <span class="description">Matiére</span>
+                </div>
+                <div>
+                  <span class="heading">3</span>
+                  <span class="description">Classe</span>
+                </div>
+                <div>
+                  <span class="heading">1</span>
+                  <span class="description">Niveau</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <h3>
+              Ahmed Ben Ali<span class="font-weight-light">, 27</span>
+            </h3>
+            <div class="h5 font-weight-300">
+              <i class="ni location_pin mr-2"></i>Tunisie, tunis
+            </div>
+            <div class="h5 mt-4">
+              <i class="ni business_briefcase-24 mr-2"></i>Prof de développement web
+            </div>
+            <div>
+              <i class="ni education_hat mr-2"></i>University of Computer Science
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-8 order-xl-1">
+      <div class="card bg-secondary shadow">
+        <div class="card-header bg-white border-0">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <h3 style ="text-align: center">Mon profil</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+
+            <hr class="my-2" />
+            <!-- Description -->
+            <h6 class="heading-small text-muted mb-4"></h6>
+            <div class="pl-lg-4">
+              <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+                <div class="d-flex justify-content-between">
+                  <a routerLinkActive="active" [routerLink]="['/module-eleve']"  class="btn btn-sm btn-info mr-4">Emploi du temps</a>
+                  <a routerLinkActive="active" [routerLink]="['/matiere-eleve']" class="btn btn-sm btn-default float-right">Emploi des examens</a>
+                </div>
+                <div class="col-8 text-right">
+                  <a routerLinkActive="active" [routerLink]="['/add-justif']" class="btn btn-sm btn-primary">Deposer Justification</a>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>A propos de moi ..</label>
+                <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ...">...</textarea>
+                
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
